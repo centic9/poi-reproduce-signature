@@ -19,3 +19,7 @@ If it fails, there is similar output to
     Validate returned: false
     HasNext: true, validate: false
             at org.dstadler.poi.reproduce.Reproduce.main(Reproduce.java:105)
+
+
+This was reported at https://bugs.openjdk.org/browse/JDK-8320597 to see if 
+this is caused by a change in the JDK which should be reverted/fixed. 
